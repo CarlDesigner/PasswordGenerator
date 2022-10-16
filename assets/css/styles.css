@@ -1,0 +1,81 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Righteous&display=swap');
+
+body {
+    background-color: #262223;
+    color: #fff;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h3 {
+    font-size: 4vw;
+    height: 50px;
+    margin-bottom: 3.5vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.fa-solid {
+    font-size: 3vw;
+    color: #fff;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.fa-solid:hover {
+    color: #2f80ff;
+    transition: all 0.4s;
+}
+
+.fa-solid,
+button {
+    cursor: pointer;
+}
+
+button {
+    font-size: 3vw;
+    background: linear-gradient(90deg, rgba(47, 128, 255, 1) 0%, rgba(60, 203, 255, 1) 100%);
+    border: 0;
+    padding: 1vw 3vw;
+    border-radius: 25px;
+    color: #fff;
+    box-shadow: 5px 3.5px 14px 1.5px rgba(15, 15, 15, 0.76);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+button:hover {
+    opacity: 0.8;
+    transition: all 0.4s;
+}
+
+.copyrightText {
+    display: flex;
+    justify-content: center;
+}
+
+.copyrightText a {
+    color: #1fc586;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: 'Righteous', cursive;
+}
+
+.copyrightText p {
+    color: #d0d0d0;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+
+small {
+    font-size: 25px;
+    color: #d0d0d0;
+    font-family: 'Poiret One', cursive;
+}

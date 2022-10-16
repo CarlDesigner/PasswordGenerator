@@ -17,6 +17,6 @@ function generarContrasena(event) {
 function copiar() {
     const copyText = salida.innerHTML
     navigator.clipboard.writeText(copyText).then(() => {
-        alert('Copied to Clipboard : ' + copyText)
+        alert('Clave copiada : ' + copyText)
     })
 };
